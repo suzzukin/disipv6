@@ -16,13 +16,13 @@ This script:
 Run directly from GitHub without downloading:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/USERNAME/REPO/main/dipv6.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/suzzukin/disipv6/main/dipv6.sh | sudo bash
 ```
 
 Or download first, then run:
 
 ```bash
-curl -O https://raw.githubusercontent.com/USERNAME/REPO/main/dipv6.sh
+curl -O https://raw.githubusercontent.com/suzzukin/disipv6/main/dipv6.sh
 chmod +x dipv6.sh
 sudo ./dipv6.sh
 ```
