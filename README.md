@@ -13,18 +13,25 @@ This script:
 
 ## Usage with curl
 
-Run directly from GitHub without downloading:
+### Disable IPv6
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/suzzukin/disipv6/master/dipv6.sh | sudo bash
 ```
 
-Or download first, then run:
+### Re-enable IPv6 (Revert)
+
+```bash
+curl -sSL https://raw.githubusercontent.com/suzzukin/disipv6/master/dipv6.sh | sudo bash -s -- --revert
+```
+
+### Download and run locally
 
 ```bash
 curl -O https://raw.githubusercontent.com/suzzukin/disipv6/master/dipv6.sh
 chmod +x dipv6.sh
-sudo ./dipv6.sh
+sudo ./dipv6.sh          # to disable IPv6
+sudo ./dipv6.sh --revert # to re-enable IPv6
 ```
 
 ## Requirements
